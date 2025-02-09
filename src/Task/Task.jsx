@@ -30,8 +30,10 @@ function Task(){
                     <div>
                         {task}
                     </div>                    
-                    <div>
+                    <div className={styles.listItemOperations}>
                         <button onClick={() => deleteTask(index)} className={styles.btnDel}>Delete</button>
+                        <button className={styles.btnOrder}>☝️</button>
+                        <button className={styles.btnOrder}>👇</button>
                     </div>
                 </li>)}
             </ul>
