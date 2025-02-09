@@ -1,0 +1,29 @@
+.btnAdd{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    height: 29px;
+}
+
+.textInput{
+    border-radius: 5px;
+    height: 25px;
+}
+
+.listItem{
+    color: black;
+    background-color: white;
+    margin: 5px;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnDel{
+    color: white;
+    background-color: red;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
